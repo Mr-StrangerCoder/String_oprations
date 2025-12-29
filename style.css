@@ -10,3 +10,7 @@
     width: 90rem;
     margin: 0rem auto;
 }
+
+textarea:focus{
+    outline: none;
+}

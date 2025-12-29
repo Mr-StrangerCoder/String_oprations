@@ -2,6 +2,11 @@
 const str = document.getElementById("floatingTextarea2").value
 
 
+function resetText() {
+    document.getElementById("floatingTextarea2").value = "";
+}
+
+
 function tocapitalise() {
     let toUpCase = str.toUpperCase()
     document.getElementById("result").innerHTML = toUpCase
