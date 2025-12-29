@@ -55,5 +55,20 @@ function countSpaces(){
 
 
 function replaceSpaces(){
-    
+    let rp = str.replaceAll(" ", "-")
+     document.getElementById("result").innerHTML = rp
 }
+
+function countWords(){
+    let count = 0
+     for(let i = 0; i < str.length; i++){
+        if(str[i] == " ")
+            count++
+     }
+      document.getElementById("result").innerHTML = 'total words are: ' + (count + 1)
+}
+    
+
+
+
+
