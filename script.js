@@ -132,3 +132,13 @@ function sortWord(){
     let result = array1.join(" ")
     document.getElementById("result").innerHTML = result
 }
+
+function camelCase(){
+     let str6 = str.split("")
+    for (let i = 0; i < str6.length; i= i+2) {
+        str6[i] = str6[i].toUpperCase() 
+    }
+    let str7 = str6.join("")
+    document.getElementById("result").innerHTML = str7
+    
+}
