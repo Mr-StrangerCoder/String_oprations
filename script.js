@@ -135,7 +135,7 @@ function sortWord(){
 
 function camelCase(){
      let str6 = str.split("")
-    for (let i = 0; i < str6.length; i= i+2) {
+    for (let i = 0; i < str6.length; i = i+2) {
         str6[i] = str6[i].toUpperCase() 
     }
     let str7 = str6.join("")

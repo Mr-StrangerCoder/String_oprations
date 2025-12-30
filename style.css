@@ -1,16 +1,21 @@
+
+
 .section1 button{
     width: 5rem;
     height: 3rem;
     font-size: 0.7rem;
     font-weight: 900;
+    border: 1px solid white;
 
 }
+
+.section1 button:hover{
+    border: 2px solid red;
+
+}
+
 .mainDiv{
     border: 5px solid rgb(255, 255, 255);
     width: 90rem;
     margin: 0rem auto;
-}
-
-textarea:focus{
-    outline: none;
 }
